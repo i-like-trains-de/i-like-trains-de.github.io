@@ -5,7 +5,7 @@ const errors = {
   noWriteAccess: 'Error: you do not have write access to this directory',
   fileNotFound: 'Error: file not found in current directory',
   fileNotSpecified: 'Error: you did not specify a file',
-  invalidFile: 'Error: not a valid file',
+  invalidFile: 'error: not a valid file :(',
 };
 
 const struct = {
@@ -15,7 +15,7 @@ const struct = {
 
 const commands = {};
 let systemData = {};
-const rootPath = 'users/codebytere/root';
+const rootPath = 'users/marco/root';
 
 const getDirectory = () => localStorage.directory;
 const setDirectory = (dir) => {

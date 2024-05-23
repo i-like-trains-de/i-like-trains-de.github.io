@@ -98,7 +98,7 @@ class Shell {
           this.resetPrompt(term, prompt);
           $('.root').last().html(localStorage.directory);
         } else {
-          this.term.innerHTML += 'Error: command not recognized';
+          this.term.innerHTML += 'error: command not recognized :(';
           this.resetPrompt(term, prompt);
         }
         evt.preventDefault();
